@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ABVREEG</title>
+</head>
+<body>
+
+  <object id="plugin0" type="application/x-emotivlifesciencesbtle" width="0" height="0">
+    <param name="onload" value="pluginLoaded" />
+  </object>
+
+  <button onclick="loadELS()">Load</button>
+
+  <br>
+  <br>
+  <span id="time">time</span>
+  <br>
+  <span id="runtime">runtime</span>
+  <br>
+  <span id="signal">signal</span>
+  <br>
+  <span id="battery">battery</span>
+  <br>
+  <br>
+  <span id="event">runtime</span>
+  <br>
+  <span id="state">signal</span>
+  <br>
+  <span id="contactQuality">battery</span>
+  <br>
+  <br>
+  <span id="excitement">excitement</span>
+  <br>
+  <span id="frustration">frustration</span>
+  <br>
+  <span id="boredom">boredom</span>
+  <br>
+  <span id="meditation">meditation</span>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/detectOS.js"></script>
+  <script src="js/EdkDll.js"></script>
+  <script src="js/EmoState.js"></script>
+  <script src="js/EmoEngine.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
